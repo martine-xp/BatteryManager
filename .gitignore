@@ -1,0 +1,40 @@
+node_modules/
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/.cxx/
+android/app/.cxx/
+android/local.properties
+android/.externalNativeBuild/
+
+# iOS
+ios/build/
+ios/Pods/
+ios/DerivedData/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Gradle
+.gradle/
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+coverage/
